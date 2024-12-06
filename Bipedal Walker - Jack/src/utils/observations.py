@@ -1,6 +1,6 @@
 import gymnasium as gym
 
-def obs_to_text_experiment_1(obs):
+def obs_to_text(obs):
     """
     Convert the observation to a human-readable string. For LLM experiments.
     """
