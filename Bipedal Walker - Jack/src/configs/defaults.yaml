@@ -1,0 +1,21 @@
+env:
+  render_mode: 'human' # 'human' or 'rgb_array'
+  environment: 'BipedalWalker-v3' # 'BipedalWalker-v3' or ...
+
+trainer:
+  no_of_episodes: 1000 # Number of episodes to run
+  no_steps: 1000 # Number of steps per episode before stopping
+  observation_memory_size: 3 # Number of observations to remember
+  no_actions: 5 # Number of actions to take per step [1, 5]
+  delay: 1 # Delay between steps (seconds)
+
+  # To help determine token size to cut memory use
+  observation_text_length : 800 # Approx
+  primer_length : 2000 # Approx
+
+logger:
+  save_dir: "../runs"
+
+experiment:
+  type: 'baseline' # 'baseline' or 'enhanced'
+  observations: 'baseline' # use the baseline observations for the environment
