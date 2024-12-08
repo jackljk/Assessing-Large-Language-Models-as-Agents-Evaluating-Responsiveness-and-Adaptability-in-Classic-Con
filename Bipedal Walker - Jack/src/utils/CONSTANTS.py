@@ -20,6 +20,7 @@ _
 {obs_step}
 {reward_step}
 score: {score_step}
+{additional_obs}
 
 Action: 
 """,
@@ -29,6 +30,7 @@ _
 {obs_step}
 reward: None as it is the first step
 score: 0
+{additional_obs}
 
 Action:
 """,
@@ -62,6 +64,7 @@ _
 {obs_step}
 rewards: {reward_step}
 score: {score_step}
+{additional_obs}
 
 Actions 
 """,
@@ -71,6 +74,7 @@ _
 {obs_step}
 reward: None as it is the first step
 score: 0
+{additional_obs}
 
 Actions
 """,

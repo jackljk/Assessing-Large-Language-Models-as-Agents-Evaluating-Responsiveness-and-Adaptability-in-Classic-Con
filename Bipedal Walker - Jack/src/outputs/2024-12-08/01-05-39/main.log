@@ -1,0 +1,41 @@
+[2024-12-08 01:05:40,116][__main__][INFO] - Environment initialized
+[2024-12-08 01:05:40,295][__main__][INFO] - LLM Client initialized
+[2024-12-08 01:05:40,296][__main__][INFO] - Starting training for 2 steps and 1000. 
+[2024-12-08 01:05:40,296][__main__][INFO] - Delay between steps: 1 seconds
+[2024-12-08 01:05:40,297][__main__][INFO] - Experiment type: enhanced
+[2024-12-08 01:05:40,297][train][INFO] - Determining primers for 5 actions
+[2024-12-08 01:05:40,323][train][INFO] - Step: 1
+[2024-12-08 01:05:41,324][llms.gpt][INFO] - Getting action from LLM
+[2024-12-08 01:05:44,165][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-12-08 01:05:44,175][llms.gpt][INFO] - Response from LLM: 
+ Move Back revolute joint 0.1, Back lower leg -0.5, Front revolute joint 0.1, Front lower leg -0.5
+Move Back revolute joint 0.2, Back lower leg -0.4, Front revolute joint 0.2, Front lower leg -0.4
+Move Back revolute joint 0.0, Back lower leg -0.6, Front revolute joint 0.0, Front lower leg -0.6
+Move Back revolute joint 0.3, Back lower leg -0.3, Front revolute joint 0.3, Front lower leg -0.3
+Move Back revolute joint 0.1, Back lower leg -0.7, Front revolute joint 0.1, Front lower leg -0.7
+[2024-12-08 01:05:44,175][train][INFO] - Executing action: [0.1, -0.5, 0.1, -0.5]
+[2024-12-08 01:05:44,179][train][INFO] - Executing action: [0.2, -0.4, 0.2, -0.4]
+[2024-12-08 01:05:44,200][train][INFO] - Executing action: [0.0, -0.6, 0.0, -0.6]
+[2024-12-08 01:05:44,220][train][INFO] - Executing action: [0.3, -0.3, 0.3, -0.3]
+[2024-12-08 01:05:44,241][train][INFO] - Executing action: [0.1, -0.7, 0.1, -0.7]
+[2024-12-08 01:05:44,262][train][INFO] - Saving observations
+[2024-12-08 01:05:44,263][train][INFO] - Step: 2
+[2024-12-08 01:05:45,264][llms.gpt][INFO] - Getting action from LLM
+[2024-12-08 01:05:47,654][httpx][INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-12-08 01:05:47,669][llms.gpt][INFO] - Response from LLM: 
+ Move Back revolute joint -0.2, Back lower leg 0.5, Front revolute joint -0.2, Front lower leg 0.5  
+Move Back revolute joint -0.3, Back lower leg 0.6, Front revolute joint -0.3, Front lower leg 0.6  
+Move Back revolute joint -0.1, Back lower leg 0.4, Front revolute joint -0.1, Front lower leg 0.4  
+Move Back revolute joint -0.4, Back lower leg 0.7, Front revolute joint -0.4, Front lower leg 0.7  
+Move Back revolute joint -0.5, Back lower leg 0.8, Front revolute joint -0.5, Front lower leg 0.8  
+[2024-12-08 01:05:47,670][train][INFO] - Executing action: [-0.2, 0.5, -0.2, 0.5]
+[2024-12-08 01:05:47,676][train][INFO] - Executing action: [-0.3, 0.6, -0.3, 0.6]
+[2024-12-08 01:05:47,697][train][INFO] - Executing action: [-0.1, 0.4, -0.1, 0.4]
+[2024-12-08 01:05:47,718][train][INFO] - Executing action: [-0.4, 0.7, -0.4, 0.7]
+[2024-12-08 01:05:47,738][train][INFO] - Executing action: [-0.5, 0.8, -0.5, 0.8]
+[2024-12-08 01:05:47,758][train][INFO] - Saving observations
+[2024-12-08 01:05:47,759][train][INFO] - Episode done, score: {score}
+[2024-12-08 01:05:47,759][train][INFO] - Storing observations
+[2024-12-08 01:05:47,762][utils.loggers][INFO] - Storing observations in G:/My Drive/UCSD/DSC/DSC190 - Few Labels/Assessing-Large-Language-Models-as-Agents-Evaluating-Responsiveness-and-Adaptability-in-Classic-Con/Bipedal Walker - Jack/runs/enhanced/observations_1.csv
+[2024-12-08 01:05:47,785][__main__][INFO] - Training took 7.66 seconds
+[2024-12-08 01:05:47,785][__main__][INFO] - Training completed

@@ -2,10 +2,15 @@ import openai
 import os
 import time
 
+import logging
+
+# A logger for this file
+log = logging.getLogger(__name__)
+
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 def get_action(primer, client):
-    print("Getting action from LLM")
+    log.info(f"Getting action from LLM")
     response = client.chat.completions.create(
     model="gpt-4o",
     messages=[
@@ -22,7 +27,5 @@ def get_action(primer, client):
     )
 
     action_text = response.choices[0].message.content
-    print("Action received from LLM")
-    print(action_text)
-    print("------")
+    log.info(f"Response from LLM: \n {action_text}")
     return action_text

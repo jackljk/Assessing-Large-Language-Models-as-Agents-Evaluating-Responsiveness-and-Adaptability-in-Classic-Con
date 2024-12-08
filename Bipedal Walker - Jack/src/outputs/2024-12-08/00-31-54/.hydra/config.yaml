@@ -1,0 +1,18 @@
+env:
+  render_mode: human
+  environment: BipedalWalker-v3
+trainer:
+  no_of_episodes: 1000
+  no_steps: 1000
+  observation_memory_size: 3
+  no_actions: 5
+  delay: 1
+  observation_text_length: 800
+  primer_length: 2000
+logger:
+  save_dir: ../runs
+experiment:
+  type: enhanced
+  no_check: 10
+  threshold_rewards_no_change: 3
+  threshold_leg_movement: 0.5
