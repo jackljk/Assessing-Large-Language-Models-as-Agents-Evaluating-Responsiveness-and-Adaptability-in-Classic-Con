@@ -1,1 +1,4 @@
 .env
+
+# any directory named "output"
+**/outputs/

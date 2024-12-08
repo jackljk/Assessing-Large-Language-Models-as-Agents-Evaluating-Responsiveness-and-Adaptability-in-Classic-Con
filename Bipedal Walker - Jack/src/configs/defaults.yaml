@@ -4,7 +4,7 @@ env:
 
 trainer:
   no_episodes: 1000 # Number of episodes to run
-  no_steps: 2 # Number of steps per episode before stopping
+  no_steps: 6 # Number of steps per episode before stopping
   observation_memory_size: 3 # Number of observations to remember
   no_actions: 5 # Number of actions to take per step [1, 5]
   delay: 1 # Delay between steps (seconds)
@@ -18,6 +18,6 @@ logger:
 
 experiment:
   type: 'enhanced' # 'baseline' or 'enhanced'
-  no_check: 10 # Number of previous checks to use for enhanced
+  no_check: 2 # Number of previous checks to use for enhanced
   threshold_rewards_no_change: 3 # Threshold for telling when there is no significant change in rewards
   threshold_leg_movement: 0.5 # Threshold for leg movement to tell when there is no significant change in leg movement

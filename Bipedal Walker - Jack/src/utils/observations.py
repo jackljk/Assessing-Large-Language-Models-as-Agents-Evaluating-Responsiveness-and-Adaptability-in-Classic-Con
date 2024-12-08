@@ -96,9 +96,11 @@ def leg_movement(observations, no_check, threshold, previous_movements_back=[], 
     front_movements = previous_movements_front[-no_check:]
     
     # Check to see if the back leg is moving (Not move if the value is very close to 0)
-    back_movement = sum(back_movements) / no_check > threshold
-    front_movement = sum(front_movements) / no_check > threshold
+    print(back_movement, front_movement)
     
+    back_movement = (sum(back_movements) / no_check) > threshold
+    front_movement = (sum(front_movements) / no_check) > threshold
+    print(back_movement, front_movement)
     back_res = f"Back Leg has not moved the past {no_check} steps please try a different action to move the back leg" if not back_movement else None
     front_res = f"Front Leg has not moved the past {no_check} steps please try a different action to move the front leg" if not front_movement else None
     

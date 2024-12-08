@@ -1,6 +1,0 @@
-[2024-12-08 01:03:25,165][__main__][INFO] - Environment initialized
-[2024-12-08 01:03:25,342][__main__][INFO] - LLM Client initialized
-[2024-12-08 01:03:25,342][__main__][INFO] - Starting training for 2 steps and 1000. 
-[2024-12-08 01:03:25,343][__main__][INFO] - Delay between steps: 1 seconds
-[2024-12-08 01:03:25,343][__main__][INFO] - Experiment type: enhanced
-[2024-12-08 01:03:25,344][train][INFO] - Determining primers for 5 actions

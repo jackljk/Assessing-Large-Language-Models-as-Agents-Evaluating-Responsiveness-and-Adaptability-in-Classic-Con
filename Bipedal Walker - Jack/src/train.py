@@ -64,6 +64,9 @@ def train(
 
         # Get action from gpt
         response = get_action(primer, client)
+        if not response:
+            log.error("No response from LLM")
+            break
         action_texts = response.split("\n")
         for action_text in action_texts:
             # Get each of the actions given by the LLM
