@@ -79,3 +79,9 @@ score: 0
 Actions
 """,
 }
+
+
+LLMS = {
+    "gpt-4o": "gpt-4o",
+    "gpt-4o-mini": "gpt-4o-mini",
+}

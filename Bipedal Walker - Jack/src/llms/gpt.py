@@ -1,6 +1,7 @@
 import openai
 import os
 import time
+from utils.CONSTANTS import LLMS
 
 import logging
 
@@ -9,11 +10,11 @@ log = logging.getLogger(__name__)
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-def get_action(primer, client):
+def get_action(primer, client, cfg):
     log.info(f"Getting action from LLM")
     try:
         response = client.chat.completions.create(
-            model="gpt-4o",
+            model=LLMS[cfg.experiment.llm],
             messages=[
                 {"role": "user", "content": primer}
             ],

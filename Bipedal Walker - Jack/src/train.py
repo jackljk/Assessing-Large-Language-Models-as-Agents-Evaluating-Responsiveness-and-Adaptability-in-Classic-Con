@@ -63,7 +63,7 @@ def train(
         time.sleep(delay)
 
         # Get action from gpt
-        response = get_action(primer, client)
+        response = get_action(primer, client, cfg)
         if not response:
             log.error("No response from LLM")
             break
@@ -87,12 +87,11 @@ def train(
             # Add the action to the primer
             primer += action_text + "\n"
 
-            if done:
-                log.info(
-                    "The bipedal machine has fallen over/took too long. The total score was: ",
-                    score,
-                )
-                break
+        if done:
+            log.info(
+                f"The bipedal machine has fallen over/took too long. The total score was: {score}"
+            )
+            break
 
         # for enhance observations
         if cfg.experiment.type == "enhanced":
@@ -143,7 +142,7 @@ def train(
             action_store,
             store,
             obs_skeleton,
-            enhanced_obs_text,
+            enhanced_obs_text if cfg.experiment.type == "enhanced" else "",
         )
 
         # reset rewards

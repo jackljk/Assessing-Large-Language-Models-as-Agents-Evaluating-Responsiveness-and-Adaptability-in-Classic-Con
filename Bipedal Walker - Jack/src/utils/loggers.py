@@ -49,7 +49,7 @@ def store_to_csv(store, cfg):
     Store the observations in a csv file
     """
     experiment_type = cfg.experiment.type
-    save_dir = cfg.logger.save_dir + "/" + experiment_type + "/"
+    save_dir = cfg.logger.save_dir + "/" + experiment_type + "/" + cfg.experiment.llm + "/"
 
     # make a directory by the name of the experiment
     os.makedirs(save_dir, exist_ok=True)

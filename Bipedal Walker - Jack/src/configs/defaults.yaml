@@ -17,7 +17,8 @@ logger:
   save_dir: "G:/My Drive/UCSD/DSC/DSC190 - Few Labels/Assessing-Large-Language-Models-as-Agents-Evaluating-Responsiveness-and-Adaptability-in-Classic-Con/Bipedal Walker - Jack/runs" # Full path to save directory
 
 experiment:
-  type: 'enhanced' # 'baseline' or 'enhanced'
+  type: 'baseline' # 'baseline' or 'enhanced'
   no_check: 10 # Number of previous checks to use for enhanced
   threshold_rewards_no_change: 3 # Threshold for telling when there is no significant change in rewards
   threshold_leg_movement: 0.5 # Threshold for leg movement to tell when there is no significant change in leg movement
+  llm: "gpt-4o-mini" # LLM model used [gpt-4o, gpt-4o-mini]
