@@ -29,7 +29,7 @@ def get_action(primer, client):
         action_text = response.choices[0].message.content
         log.info(f"Response from LLM: \n {action_text}")
         return action_text
-    except openai.error.RateLimitError as e:
+    except openai.RateLimitError as e:
         log.error(f"Rate limit error: {e}")
         return None
     except Exception as e:
