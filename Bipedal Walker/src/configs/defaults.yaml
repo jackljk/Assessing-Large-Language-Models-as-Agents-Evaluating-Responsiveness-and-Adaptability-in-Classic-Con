@@ -14,7 +14,7 @@ trainer:
   primer_length : 2500 # Approx
 
 logger:
-  save_dir: "G:/My Drive/UCSD/DSC/DSC190 - Few Labels/Assessing-Large-Language-Models-as-Agents-Evaluating-Responsiveness-and-Adaptability-in-Classic-Con/Bipedal Walker - Jack/runs" # Full path to save directory
+  save_dir: "<save_dir>" # Full path to save directory
 
 experiment:
   type: 'enhanced' # 'baseline' or 'enhanced'
