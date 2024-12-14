@@ -1,0 +1,1115 @@
+,obs,obs_text,reward,reward_text,score,skeleton,actions_text,actions
+0,"[-1.7587067e-01 -8.8620566e-02 -4.1133516e-02 -1.1290984e-02
+  4.8884785e-01  9.9987662e-01  5.5673158e-01 -4.0714803e-01
+  0.0000000e+00  1.9650398e-01  6.5583283e-01  1.0567046e+00
+ -6.2567991e-04  0.0000000e+00  4.7006905e-01  4.7540739e-01
+  4.9204552e-01  5.2203965e-01  5.6954902e-01  6.4244390e-01
+  7.5621223e-01  9.4472754e-01  1.0000000e+00  1.0000000e+00]","Observation from last step: 
+Hull angle: -0.18
+Angular velocity: -0.09
+X velocity: -0.04
+Y velocity: -0.01
+Back revolute joint angle: 0.49
+Back revolute joint speed: 1.00
+Back lower leg angle: 0.56
+Back lower leg speed: -0.41
+Back leg ground contact flag: 0.00
+Front revolute joint angle: 0.20
+Front revolute joint speed: 0.66
+Front lower leg angle: 1.06
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.48
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.76
+Lidar 8 (1.05 rad): 0.94
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00",-0.2773971518039704,The reward from the last step was: -0.28,-1.1825837649861983,"
+_
+Observation from last step: 
+Hull angle: -0.18
+Angular velocity: -0.09
+X velocity: -0.04
+Y velocity: -0.01
+Back revolute joint angle: 0.49
+Back revolute joint speed: 1.00
+Back lower leg angle: 0.56
+Back lower leg speed: -0.41
+Back leg ground contact flag: 0.00
+Front revolute joint angle: 0.20
+Front revolute joint speed: 0.66
+Front lower leg angle: 1.06
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.48
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.76
+Lidar 8 (1.05 rad): 0.94
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: -0.28
+score: Score: -1.1825837649861983
+
+    Additional Observations:
+    Walker has leftward velocity and is moving backwards, try a different action to move forward
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    
+
+Actions 
+","['1. Move Back revolute joint 0.5, Back lower leg 0.3, Front revolute joint 0.5, Front lower leg 0.7', '2. Move Back revolute joint 0.3, Back lower leg 0.1, Front revolute joint 0.4, Front lower leg 0.6', '3. Move Back revolute joint 0.6, Back lower leg 0.2, Front revolute joint 0.3, Front lower leg 0.5', '4. Move Back revolute joint 0.4, Back lower leg 0.0, Front revolute joint 0.2, Front lower leg 0.4', '5. Move Back revolute joint 0.2, Back lower leg -0.1, Front revolute joint 0.1, Front lower leg 0.3']","[[0.5, 0.3, 0.5, 0.7], [0.3, 0.1, 0.4, 0.6], [0.6, 0.2, 0.3, 0.5], [0.4, 0.0, 0.2, 0.4], [0.2, -0.1, 0.1, 0.3]]"
+1,"[-0.39653394 -0.08752739 -0.03820167  0.00176683  0.51236206  0.16707635
+  0.9349067   0.          1.          0.46021587  0.6997691   0.934345
+  0.          0.          0.47546682  0.48086646  0.49769565  0.5280342
+  0.5760891   0.64982104  0.76489574  0.95557576  1.          1.        ]","Observation from last step: 
+Hull angle: -0.40
+Angular velocity: -0.09
+X velocity: -0.04
+Y velocity: 0.00
+Back revolute joint angle: 0.51
+Back revolute joint speed: 0.17
+Back lower leg angle: 0.93
+Back lower leg speed: 0.00
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.46
+Front revolute joint speed: 0.70
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.48
+Lidar 2 (0.15 rad): 0.48
+Lidar 3 (0.30 rad): 0.50
+Lidar 4 (0.45 rad): 0.53
+Lidar 5 (0.60 rad): 0.58
+Lidar 6 (0.75 rad): 0.65
+Lidar 7 (0.90 rad): 0.76
+Lidar 8 (1.05 rad): 0.96
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00",-0.2661481536706278,The reward from the last step was: -0.27,-2.599404744954903,"
+_
+Observation from last step: 
+Hull angle: -0.40
+Angular velocity: -0.09
+X velocity: -0.04
+Y velocity: 0.00
+Back revolute joint angle: 0.51
+Back revolute joint speed: 0.17
+Back lower leg angle: 0.93
+Back lower leg speed: 0.00
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.46
+Front revolute joint speed: 0.70
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.48
+Lidar 2 (0.15 rad): 0.48
+Lidar 3 (0.30 rad): 0.50
+Lidar 4 (0.45 rad): 0.53
+Lidar 5 (0.60 rad): 0.58
+Lidar 6 (0.75 rad): 0.65
+Lidar 7 (0.90 rad): 0.76
+Lidar 8 (1.05 rad): 0.96
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: -0.27
+score: Score: -2.599404744954903
+
+    Additional Observations:
+    Walker has leftward velocity and is moving backwards, try a different action to move forward
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    
+
+Actions 
+","['1. Move Back revolute joint -0.5, Back lower leg 0.3, Front revolute joint 0.5, Front lower leg 0.7', '2. Move Back revolute joint -0.4, Back lower leg 0.2, Front revolute joint 0.4, Front lower leg 0.6', '3. Move Back revolute joint -0.3, Back lower leg 0.1, Front revolute joint 0.3, Front lower leg 0.5', '4. Move Back revolute joint -0.2, Back lower leg 0.0, Front revolute joint 0.2, Front lower leg 0.4', '5. Move Back revolute joint -0.1, Back lower leg -0.1, Front revolute joint 0.1, Front lower leg 0.3']","[[-0.5, 0.3, 0.5, 0.7], [-0.4, 0.2, 0.4, 0.6], [-0.3, 0.1, 0.3, 0.5], [-0.2, 0.0, 0.2, 0.4], [-0.1, -0.1, 0.1, 0.3]]"
+2,"[-5.9910589e-01 -7.7154256e-02 -4.7480069e-02 -2.0381875e-02
+  6.9269735e-01  6.9259572e-01  9.1640902e-01 -1.5634030e-01
+  1.0000000e+00  8.5381144e-01  1.0000017e+00  9.3490624e-01
+  3.2186508e-06  0.0000000e+00  4.7046208e-01  4.7580490e-01
+  4.9245694e-01  5.2247614e-01  5.7002527e-01  6.4298105e-01
+  7.5684452e-01  9.4551742e-01  1.0000000e+00  1.0000000e+00]","Observation from last step: 
+Hull angle: -0.60
+Angular velocity: -0.08
+X velocity: -0.05
+Y velocity: -0.02
+Back revolute joint angle: 0.69
+Back revolute joint speed: 0.69
+Back lower leg angle: 0.92
+Back lower leg speed: -0.16
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.85
+Front revolute joint speed: 1.00
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.48
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.76
+Lidar 8 (1.05 rad): 0.95
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00",-0.2446691530227661,The reward from the last step was: -0.24,-3.9531124676346776,"
+_
+Observation from last step: 
+Hull angle: -0.60
+Angular velocity: -0.08
+X velocity: -0.05
+Y velocity: -0.02
+Back revolute joint angle: 0.69
+Back revolute joint speed: 0.69
+Back lower leg angle: 0.92
+Back lower leg speed: -0.16
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.85
+Front revolute joint speed: 1.00
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.48
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.76
+Lidar 8 (1.05 rad): 0.95
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: -0.24
+score: Score: -3.9531124676346776
+
+    Additional Observations:
+    Walker has leftward velocity and is moving backwards, try a different action to move forward
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    
+
+Actions 
+","['1. Move Back revolute joint -0.5, Back lower leg 0.3, Front revolute joint 0.5, Front lower leg 0.7  ', '2. Move Back revolute joint -0.4, Back lower leg 0.2, Front revolute joint 0.4, Front lower leg 0.6  ', '3. Move Back revolute joint -0.3, Back lower leg 0.1, Front revolute joint 0.3, Front lower leg 0.5  ', '4. Move Back revolute joint -0.2, Back lower leg 0.0, Front revolute joint 0.2, Front lower leg 0.4  ', '5. Move Back revolute joint -0.1, Back lower leg -0.1, Front revolute joint 0.1, Front lower leg 0.3  ']","[[-0.5, 0.3, 0.5, 0.7], [-0.4, 0.2, 0.4, 0.6], [-0.3, 0.1, 0.3, 0.5], [-0.2, 0.0, 0.2, 0.4], [-0.1, -0.1, 0.1, 0.3]]"
+3,"[-7.1652031e-01 -1.2635682e-02 -1.2653148e-02 -4.5282715e-03
+  8.1668013e-01  1.5068917e-01  9.2351228e-01 -7.0082746e-02
+  1.0000000e+00  1.1350574e+00  2.4065375e-06  9.3530083e-01
+  1.0733803e-05  0.0000000e+00  4.6558261e-01  4.7086999e-01
+  4.8734933e-01  5.1705718e-01  5.6411314e-01  6.3631231e-01
+  7.4899477e-01  9.3571085e-01  1.0000000e+00  1.0000000e+00]","Observation from last step: 
+Hull angle: -0.72
+Angular velocity: -0.01
+X velocity: -0.01
+Y velocity: -0.00
+Back revolute joint angle: 0.82
+Back revolute joint speed: 0.15
+Back lower leg angle: 0.92
+Back lower leg speed: -0.07
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 1.14
+Front revolute joint speed: 0.00
+Front lower leg angle: 0.94
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.47
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.56
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.75
+Lidar 8 (1.05 rad): 0.94
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00",0.006115442784626094,The reward from the last step was: 0.01,-4.830937232935429,"
+_
+Observation from last step: 
+Hull angle: -0.72
+Angular velocity: -0.01
+X velocity: -0.01
+Y velocity: -0.00
+Back revolute joint angle: 0.82
+Back revolute joint speed: 0.15
+Back lower leg angle: 0.92
+Back lower leg speed: -0.07
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 1.14
+Front revolute joint speed: 0.00
+Front lower leg angle: 0.94
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.47
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.56
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.75
+Lidar 8 (1.05 rad): 0.94
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: 0.01
+score: Score: -4.830937232935429
+
+    Additional Observations:
+    Walker has leftward velocity and is moving backwards, try a different action to move forward
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    
+
+Actions 
+","['1. Move Back revolute joint -0.5, Back lower leg 0.3, Front revolute joint 0.5, Front lower leg 0.7  ', '2. Move Back revolute joint -0.4, Back lower leg 0.2, Front revolute joint 0.4, Front lower leg 0.6  ', '3. Move Back revolute joint -0.3, Back lower leg 0.1, Front revolute joint 0.3, Front lower leg 0.5  ', '4. Move Back revolute joint -0.2, Back lower leg 0.0, Front revolute joint 0.2, Front lower leg 0.4  ', '5. Move Back revolute joint -0.1, Back lower leg -0.1, Front revolute joint 0.1, Front lower leg 0.3  ']","[[-0.5, 0.3, 0.5, 0.7], [-0.4, 0.2, 0.4, 0.6], [-0.3, 0.1, 0.3, 0.5], [-0.2, 0.0, 0.2, 0.4], [-0.1, -0.1, 0.1, 0.3]]"
+4,"[-7.11789429e-01  4.38598823e-03 -4.72780457e-03  2.22638319e-03
+  8.23551714e-01  1.06477484e-01  9.05346036e-01 -1.75267220e-01
+  1.00000000e+00  1.13490582e+00  2.51457095e-07  9.34905350e-01
+  1.17843354e-06  0.00000000e+00  4.65823650e-01  4.71113771e-01
+  4.87601668e-01  5.17324865e-01  5.64405203e-01  6.36641741e-01
+  7.49382555e-01  9.36195254e-01  1.00000000e+00  1.00000000e+00]","Observation from last step: 
+Hull angle: -0.71
+Angular velocity: 0.00
+X velocity: -0.00
+Y velocity: 0.00
+Back revolute joint angle: 0.82
+Back revolute joint speed: 0.11
+Back lower leg angle: 0.91
+Back lower leg speed: -0.18
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 1.13
+Front revolute joint speed: 0.00
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.47
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.56
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.75
+Lidar 8 (1.05 rad): 0.94
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00",-0.00915379695892334,The reward from the last step was: -0.01,-5.000772981067498,"
+_
+Observation from last step: 
+Hull angle: -0.71
+Angular velocity: 0.00
+X velocity: -0.00
+Y velocity: 0.00
+Back revolute joint angle: 0.82
+Back revolute joint speed: 0.11
+Back lower leg angle: 0.91
+Back lower leg speed: -0.18
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 1.13
+Front revolute joint speed: 0.00
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.47
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.56
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.75
+Lidar 8 (1.05 rad): 0.94
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: -0.01
+score: Score: -5.000772981067498
+
+    Additional Observations:
+    Walker has leftward velocity and is moving backwards, try a different action to move forward
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    
+
+Actions 
+","['1. Move Back revolute joint -0.5, Back lower leg 0.3, Front revolute joint 0.5, Front lower leg 0.7  ', '2. Move Back revolute joint -0.4, Back lower leg 0.2, Front revolute joint 0.4, Front lower leg 0.6  ', '3. Move Back revolute joint -0.3, Back lower leg 0.1, Front revolute joint 0.3, Front lower leg 0.5  ', '4. Move Back revolute joint -0.2, Back lower leg 0.0, Front revolute joint 0.2, Front lower leg 0.4  ', '5. Move Back revolute joint -0.1, Back lower leg -0.1, Front revolute joint 0.1, Front lower leg 0.3  ']","[[-0.5, 0.3, 0.5, 0.7], [-0.4, 0.2, 0.4, 0.6], [-0.3, 0.1, 0.3, 0.5], [-0.2, 0.0, 0.2, 0.4], [-0.1, -0.1, 0.1, 0.3]]"
+5,"[-6.6386396e-01  2.1845972e-02  1.8203991e-03  6.9986377e-03
+  7.8354317e-01  1.3336241e-02  8.7929708e-01 -2.1816480e-01
+  1.0000000e+00  1.1348391e+00 -4.4703484e-07  9.3493390e-01
+ -1.9172828e-06  0.0000000e+00  4.6747741e-01  4.7278631e-01
+  4.8933274e-01  5.1916146e-01  5.6640893e-01  6.3890195e-01
+  7.5204301e-01  9.3951893e-01  1.0000000e+00  1.0000000e+00]","Observation from last step: 
+Hull angle: -0.66
+Angular velocity: 0.02
+X velocity: 0.00
+Y velocity: 0.01
+Back revolute joint angle: 0.78
+Back revolute joint speed: 0.01
+Back lower leg angle: 0.88
+Back lower leg speed: -0.22
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 1.13
+Front revolute joint speed: -0.00
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.47
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.75
+Lidar 8 (1.05 rad): 0.94
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00",0.039534157784778694,The reward from the last step was: 0.04,-4.926391591703893,"
+_
+Observation from last step: 
+Hull angle: -0.66
+Angular velocity: 0.02
+X velocity: 0.00
+Y velocity: 0.01
+Back revolute joint angle: 0.78
+Back revolute joint speed: 0.01
+Back lower leg angle: 0.88
+Back lower leg speed: -0.22
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 1.13
+Front revolute joint speed: -0.00
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.47
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.75
+Lidar 8 (1.05 rad): 0.94
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: 0.04
+score: Score: -4.926391591703893
+
+    Additional Observations:
+    Walker has rightward velocity and is moving forwards, keep it up!
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    
+
+Actions 
+","['1. Move Back revolute joint -0.5, Back lower leg 0.3, Front revolute joint 0.5, Front lower leg 0.7  ', '2. Move Back revolute joint -0.4, Back lower leg 0.2, Front revolute joint 0.4, Front lower leg 0.6  ', '3. Move Back revolute joint -0.3, Back lower leg 0.1, Front revolute joint 0.3, Front lower leg 0.5  ', '4. Move Back revolute joint -0.2, Back lower leg 0.0, Front revolute joint 0.2, Front lower leg 0.4  ', '5. Move Back revolute joint -0.1, Back lower leg -0.1, Front revolute joint 0.1, Front lower leg 0.3  ']","[[-0.5, 0.3, 0.5, 0.7], [-0.4, 0.2, 0.4, 0.6], [-0.3, 0.1, 0.3, 0.5], [-0.2, 0.0, 0.2, 0.4], [-0.1, -0.1, 0.1, 0.3]]"
+6,"[-5.7167047e-01  3.9979711e-02  1.1315587e-02  1.2373626e-02
+  6.4687937e-01 -1.6684771e-01  9.1613495e-01 -1.5699972e-01
+  1.0000000e+00  1.1347395e+00  1.6391277e-07  9.3499678e-01
+  3.7749609e-07  0.0000000e+00  4.7076616e-01  4.7611243e-01
+  4.9277523e-01  5.2281380e-01  5.7039368e-01  6.4339668e-01
+  7.5733370e-01  9.4612855e-01  1.0000000e+00  1.0000000e+00]","Observation from last step: 
+Hull angle: -0.57
+Angular velocity: 0.04
+X velocity: 0.01
+Y velocity: 0.01
+Back revolute joint angle: 0.65
+Back revolute joint speed: -0.17
+Back lower leg angle: 0.92
+Back lower leg speed: -0.16
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 1.13
+Front revolute joint speed: 0.00
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.48
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.76
+Lidar 8 (1.05 rad): 0.95
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00",0.09193462756474695,The reward from the last step was: 0.09,-4.595894408158464,"
+_
+Observation from last step: 
+Hull angle: -0.57
+Angular velocity: 0.04
+X velocity: 0.01
+Y velocity: 0.01
+Back revolute joint angle: 0.65
+Back revolute joint speed: -0.17
+Back lower leg angle: 0.92
+Back lower leg speed: -0.16
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 1.13
+Front revolute joint speed: 0.00
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.48
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.76
+Lidar 8 (1.05 rad): 0.95
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: 0.09
+score: Score: -4.595894408158464
+
+    Additional Observations:
+    Walker has rightward velocity and is moving forwards, keep it up!
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    
+
+Actions 
+","['1. Move Back revolute joint -0.5, Back lower leg 0.3, Front revolute joint 0.5, Front lower leg 0.7  ', '2. Move Back revolute joint -0.4, Back lower leg 0.2, Front revolute joint 0.4, Front lower leg 0.6  ', '3. Move Back revolute joint -0.3, Back lower leg 0.1, Front revolute joint 0.3, Front lower leg 0.5  ', '4. Move Back revolute joint -0.2, Back lower leg 0.0, Front revolute joint 0.2, Front lower leg 0.4  ', '5. Move Back revolute joint -0.1, Back lower leg -0.1, Front revolute joint 0.1, Front lower leg 0.3  ']","[[-0.5, 0.3, 0.5, 0.7], [-0.4, 0.2, 0.4, 0.6], [-0.3, 0.1, 0.3, 0.5], [-0.2, 0.0, 0.2, 0.4], [-0.1, -0.1, 0.1, 0.3]]"
+7,"[-4.3024889e-01  6.0284533e-02  2.3039462e-02  1.2946265e-02
+  4.9453458e-01 -2.9042041e-01  8.9339548e-01 -1.9560735e-01
+  1.0000000e+00  1.1342882e+00 -5.9604645e-08  9.3490732e-01
+  1.3907750e-07  0.0000000e+00  4.7443435e-01  4.7982225e-01
+  4.9661490e-01  5.2688754e-01  5.7483816e-01  6.4840996e-01
+  7.6323479e-01  9.5350075e-01  1.0000000e+00  1.0000000e+00]","Observation from last step: 
+Hull angle: -0.43
+Angular velocity: 0.06
+X velocity: 0.02
+Y velocity: 0.01
+Back revolute joint angle: 0.49
+Back revolute joint speed: -0.29
+Back lower leg angle: 0.89
+Back lower leg speed: -0.20
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 1.13
+Front revolute joint speed: -0.00
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.48
+Lidar 3 (0.30 rad): 0.50
+Lidar 4 (0.45 rad): 0.53
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.65
+Lidar 7 (0.90 rad): 0.76
+Lidar 8 (1.05 rad): 0.95
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00",0.15129646288553994,The reward from the last step was: 0.15,-3.9842474895596522,"
+_
+Observation from last step: 
+Hull angle: -0.43
+Angular velocity: 0.06
+X velocity: 0.02
+Y velocity: 0.01
+Back revolute joint angle: 0.49
+Back revolute joint speed: -0.29
+Back lower leg angle: 0.89
+Back lower leg speed: -0.20
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 1.13
+Front revolute joint speed: -0.00
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.48
+Lidar 3 (0.30 rad): 0.50
+Lidar 4 (0.45 rad): 0.53
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.65
+Lidar 7 (0.90 rad): 0.76
+Lidar 8 (1.05 rad): 0.95
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: 0.15
+score: Score: -3.9842474895596522
+
+    Additional Observations:
+    Walker has rightward velocity and is moving forwards, keep it up!
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    
+
+Actions 
+","['1. Move Back revolute joint -0.5, Back lower leg 0.3, Front revolute joint 0.5, Front lower leg 0.7  ', '2. Move Back revolute joint -0.4, Back lower leg 0.2, Front revolute joint 0.4, Front lower leg 0.6  ', '3. Move Back revolute joint -0.3, Back lower leg 0.1, Front revolute joint 0.3, Front lower leg 0.5  ', '4. Move Back revolute joint -0.2, Back lower leg 0.0, Front revolute joint 0.2, Front lower leg 0.4  ', '5. Move Back revolute joint -0.1, Back lower leg -0.1, Front revolute joint 0.1, Front lower leg 0.3  ']","[[-0.5, 0.3, 0.5, 0.7], [-0.4, 0.2, 0.4, 0.6], [-0.3, 0.1, 0.3, 0.5], [-0.2, 0.0, 0.2, 0.4], [-0.1, -0.1, 0.1, 0.3]]"
+8,"[-2.9791379e-01  5.0069019e-02  1.1993058e-02 -6.1937876e-02
+  6.7301291e-01  5.9383863e-01  3.1302667e-01 -1.0000000e+00
+  0.0000000e+00  1.1255543e+00 -6.5769032e-02  9.3499500e-01
+ -9.9341078e-09  0.0000000e+00  4.6830541e-01  4.7362372e-01
+  4.9019945e-01  5.2008098e-01  5.6741214e-01  6.4003354e-01
+  7.5337499e-01  9.4118303e-01  1.0000000e+00  1.0000000e+00]","Observation from last step: 
+Hull angle: -0.30
+Angular velocity: 0.05
+X velocity: 0.01
+Y velocity: -0.06
+Back revolute joint angle: 0.67
+Back revolute joint speed: 0.59
+Back lower leg angle: 0.31
+Back lower leg speed: -1.00
+Back leg ground contact flag: 0.00
+Front revolute joint angle: 1.13
+Front revolute joint speed: -0.07
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.47
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.75
+Lidar 8 (1.05 rad): 0.94
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00",0.09784894213676452,The reward from the last step was: 0.10,-3.4776869248350466,"
+_
+Observation from last step: 
+Hull angle: -0.30
+Angular velocity: 0.05
+X velocity: 0.01
+Y velocity: -0.06
+Back revolute joint angle: 0.67
+Back revolute joint speed: 0.59
+Back lower leg angle: 0.31
+Back lower leg speed: -1.00
+Back leg ground contact flag: 0.00
+Front revolute joint angle: 1.13
+Front revolute joint speed: -0.07
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.47
+Lidar 2 (0.15 rad): 0.47
+Lidar 3 (0.30 rad): 0.49
+Lidar 4 (0.45 rad): 0.52
+Lidar 5 (0.60 rad): 0.57
+Lidar 6 (0.75 rad): 0.64
+Lidar 7 (0.90 rad): 0.75
+Lidar 8 (1.05 rad): 0.94
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: 0.10
+score: Score: -3.4776869248350466
+
+    Additional Observations:
+    Walker has rightward velocity and is moving forwards, keep it up!
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    
+
+Actions 
+","['1. Move Back revolute joint 0.1, Back lower leg -0.5, Front revolute joint -0.1, Front lower leg 0.8', '2. Move Back revolute joint 0.2, Back lower leg -0.6, Front revolute joint 0.0, Front lower leg 0.7', '3. Move Back revolute joint 0.0, Back lower leg -0.4, Front revolute joint 0.1, Front lower leg 0.9', '4. Move Back revolute joint -0.1, Back lower leg -0.7, Front revolute joint 0.3, Front lower leg 0.6', '5. Move Back revolute joint 0.3, Back lower leg -0.3, Front revolute joint -0.2, Front lower leg 0.5']","[[0.1, -0.5, -0.1, 0.8], [0.2, -0.6, 0.0, 0.7], [0.0, -0.4, 0.1, 0.9], [-0.1, -0.7, 0.3, 0.6], [0.3, -0.3, -0.2, 0.5]]"
+9,"[-1.8892017e-01  3.9765351e-02  8.4386030e-03 -1.5270303e-01
+  9.9279886e-01  9.9999970e-01 -2.5066566e-01 -1.0000000e+00
+  0.0000000e+00  1.1063094e+00 -6.4684004e-02  9.3487084e-01
+ -9.9341078e-09  0.0000000e+00  4.4133919e-01  4.4635126e-01
+  4.6197250e-01  4.9013343e-01  5.3473914e-01  6.0317880e-01
+  7.0999378e-01  8.8698733e-01  1.0000000e+00  1.0000000e+00]","Observation from last step: 
+Hull angle: -0.19
+Angular velocity: 0.04
+X velocity: 0.01
+Y velocity: -0.15
+Back revolute joint angle: 0.99
+Back revolute joint speed: 1.00
+Back lower leg angle: -0.25
+Back lower leg speed: -1.00
+Back leg ground contact flag: 0.00
+Front revolute joint angle: 1.11
+Front revolute joint speed: -0.06
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.44
+Lidar 2 (0.15 rad): 0.45
+Lidar 3 (0.30 rad): 0.46
+Lidar 4 (0.45 rad): 0.49
+Lidar 5 (0.60 rad): 0.53
+Lidar 6 (0.75 rad): 0.60
+Lidar 7 (0.90 rad): 0.71
+Lidar 8 (1.05 rad): 0.89
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00",0.070514222240448,The reward from the last step was: 0.07,-3.1033640130480133,"
+_
+Observation from last step: 
+Hull angle: -0.19
+Angular velocity: 0.04
+X velocity: 0.01
+Y velocity: -0.15
+Back revolute joint angle: 0.99
+Back revolute joint speed: 1.00
+Back lower leg angle: -0.25
+Back lower leg speed: -1.00
+Back leg ground contact flag: 0.00
+Front revolute joint angle: 1.11
+Front revolute joint speed: -0.06
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.44
+Lidar 2 (0.15 rad): 0.45
+Lidar 3 (0.30 rad): 0.46
+Lidar 4 (0.45 rad): 0.49
+Lidar 5 (0.60 rad): 0.53
+Lidar 6 (0.75 rad): 0.60
+Lidar 7 (0.90 rad): 0.71
+Lidar 8 (1.05 rad): 0.89
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: 0.07
+score: Score: -3.1033640130480133
+
+    Additional Observations:
+    Walker has rightward velocity and is moving forwards, keep it up!
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    
+
+Actions 
+","['1. Move Back revolute joint 0.1, Back lower leg -0.5, Front revolute joint -0.1, Front lower leg 0.8', '2. Move Back revolute joint 0.2, Back lower leg -0.6, Front revolute joint 0.0, Front lower leg 0.7', '3. Move Back revolute joint 0.0, Back lower leg -0.4, Front revolute joint 0.1, Front lower leg 0.9', '4. Move Back revolute joint -0.1, Back lower leg -0.7, Front revolute joint 0.3, Front lower leg 0.6', '5. Move Back revolute joint 0.3, Back lower leg -0.3, Front revolute joint -0.2, Front lower leg 0.5']","[[0.1, -0.5, -0.1, 0.8], [0.2, -0.6, 0.0, 0.7], [0.0, -0.4, 0.1, 0.9], [-0.1, -0.7, 0.3, 0.6], [0.3, -0.3, -0.2, 0.5]]"
+10,"[-3.2726396e-02  6.8376064e-02  2.6173236e-02 -2.2108284e-01
+  1.1151397e+00 -5.1584303e-02 -6.3490772e-01  0.0000000e+00
+  0.0000000e+00  1.0196146e+00 -2.5592896e-01  9.3490690e-01
+  3.9736431e-08  0.0000000e+00  3.9595300e-01  4.0044963e-01
+  4.1446444e-01  4.3972936e-01  4.7974792e-01  5.4114944e-01
+  6.3697982e-01  7.9577178e-01  1.0000000e+00  1.0000000e+00]","Observation from last step: 
+Hull angle: -0.03
+Angular velocity: 0.07
+X velocity: 0.03
+Y velocity: -0.22
+Back revolute joint angle: 1.12
+Back revolute joint speed: -0.05
+Back lower leg angle: -0.63
+Back lower leg speed: 0.00
+Back leg ground contact flag: 0.00
+Front revolute joint angle: 1.02
+Front revolute joint speed: -0.26
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.40
+Lidar 2 (0.15 rad): 0.40
+Lidar 3 (0.30 rad): 0.41
+Lidar 4 (0.45 rad): 0.44
+Lidar 5 (0.60 rad): 0.48
+Lidar 6 (0.75 rad): 0.54
+Lidar 7 (0.90 rad): 0.64
+Lidar 8 (1.05 rad): 0.80
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00",0.14995074670116226,The reward from the last step was: 0.15,-2.444387361878158,"
+_
+Observation from last step: 
+Hull angle: -0.03
+Angular velocity: 0.07
+X velocity: 0.03
+Y velocity: -0.22
+Back revolute joint angle: 1.12
+Back revolute joint speed: -0.05
+Back lower leg angle: -0.63
+Back lower leg speed: 0.00
+Back leg ground contact flag: 0.00
+Front revolute joint angle: 1.02
+Front revolute joint speed: -0.26
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.40
+Lidar 2 (0.15 rad): 0.40
+Lidar 3 (0.30 rad): 0.41
+Lidar 4 (0.45 rad): 0.44
+Lidar 5 (0.60 rad): 0.48
+Lidar 6 (0.75 rad): 0.54
+Lidar 7 (0.90 rad): 0.64
+Lidar 8 (1.05 rad): 0.80
+Lidar 9 (1.20 rad): 1.00
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: 0.15
+score: Score: -2.444387361878158
+
+    Additional Observations:
+    Walker has rightward velocity and is moving forwards, keep it up!
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    There has been no change in the reward for the last 10 steps. Please try a different strategy to maximize the reward and progress the Walker forward
+    
+    
+
+Actions 
+","['1. Move Back revolute joint 0.1, Back lower leg -0.5, Front revolute joint -0.1, Front lower leg 0.8  ', '2. Move Back revolute joint 0.0, Back lower leg -0.4, Front revolute joint 0.1, Front lower leg 0.9  ', '3. Move Back revolute joint 0.2, Back lower leg -0.6, Front revolute joint 0.0, Front lower leg 0.7  ', '4. Move Back revolute joint -0.1, Back lower leg -0.7, Front revolute joint 0.3, Front lower leg 0.6  ', '5. Move Back revolute joint 0.3, Back lower leg -0.3, Front revolute joint -0.2, Front lower leg 0.5  ']","[[0.1, -0.5, -0.1, 0.8], [0.0, -0.4, 0.1, 0.9], [0.2, -0.6, 0.0, 0.7], [-0.1, -0.7, 0.3, 0.6], [0.3, -0.3, -0.2, 0.5]]"
+11,"[ 1.3004133e-01  6.3944660e-02  2.7079633e-02 -3.0475125e-01
+  1.1117142e+00 -8.9406967e-08 -6.2953889e-01  0.0000000e+00
+  0.0000000e+00  9.3635494e-01 -1.8249093e-01  9.3490744e-01
+ -3.9736431e-08  0.0000000e+00  3.3289990e-01  3.3668047e-01
+  3.4846351e-01  3.6970514e-01  4.0335095e-01  4.5497468e-01
+  5.3554469e-01  6.6904998e-01  9.1870505e-01  1.0000000e+00]","Observation from last step: 
+Hull angle: 0.13
+Angular velocity: 0.06
+X velocity: 0.03
+Y velocity: -0.30
+Back revolute joint angle: 1.11
+Back revolute joint speed: -0.00
+Back lower leg angle: -0.63
+Back lower leg speed: 0.00
+Back leg ground contact flag: 0.00
+Front revolute joint angle: 0.94
+Front revolute joint speed: -0.18
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.33
+Lidar 2 (0.15 rad): 0.34
+Lidar 3 (0.30 rad): 0.35
+Lidar 4 (0.45 rad): 0.37
+Lidar 5 (0.60 rad): 0.40
+Lidar 6 (0.75 rad): 0.45
+Lidar 7 (0.90 rad): 0.54
+Lidar 8 (1.05 rad): 0.67
+Lidar 9 (1.20 rad): 0.92
+Lidar 10 (1.35 rad): 1.00",-0.17775211706161498,The reward from the last step was: -0.18,-3.0470487883051236,"
+_
+Observation from last step: 
+Hull angle: 0.13
+Angular velocity: 0.06
+X velocity: 0.03
+Y velocity: -0.30
+Back revolute joint angle: 1.11
+Back revolute joint speed: -0.00
+Back lower leg angle: -0.63
+Back lower leg speed: 0.00
+Back leg ground contact flag: 0.00
+Front revolute joint angle: 0.94
+Front revolute joint speed: -0.18
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.33
+Lidar 2 (0.15 rad): 0.34
+Lidar 3 (0.30 rad): 0.35
+Lidar 4 (0.45 rad): 0.37
+Lidar 5 (0.60 rad): 0.40
+Lidar 6 (0.75 rad): 0.45
+Lidar 7 (0.90 rad): 0.54
+Lidar 8 (1.05 rad): 0.67
+Lidar 9 (1.20 rad): 0.92
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: -0.18
+score: Score: -3.0470487883051236
+
+    Additional Observations:
+    Walker has rightward velocity and is moving forwards, keep it up!
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    There has been no change in the reward for the last 10 steps. Please try a different strategy to maximize the reward and progress the Walker forward
+    
+    
+
+Actions 
+","['1. Move Back revolute joint 0.1, Back lower leg -0.5, Front revolute joint -0.1, Front lower leg 0.8  ', '2. Move Back revolute joint 0.0, Back lower leg -0.4, Front revolute joint 0.1, Front lower leg 0.9  ', '3. Move Back revolute joint 0.2, Back lower leg -0.6, Front revolute joint 0.0, Front lower leg 0.7  ', '4. Move Back revolute joint -0.1, Back lower leg -0.7, Front revolute joint 0.3, Front lower leg 0.6  ', '5. Move Back revolute joint 0.3, Back lower leg -0.3, Front revolute joint -0.2, Front lower leg 0.5  ']","[[0.1, -0.5, -0.1, 0.8], [0.0, -0.4, 0.1, 0.9], [0.2, -0.6, 0.0, 0.7], [-0.1, -0.7, 0.3, 0.6], [0.3, -0.3, -0.2, 0.5]]"
+12,"[ 2.4757190e-01  3.1352185e-02 -1.7112687e-01 -5.7817072e-02
+  1.1354357e+00 -1.3262033e-06 -6.3549829e-01 -3.1789145e-07
+  1.0000000e+00  7.8245199e-01 -2.2720356e-01  9.3492174e-01
+ -9.9341078e-09  0.0000000e+00  3.1004998e-01  3.1357107e-01
+  3.2454532e-01  3.4432894e-01  3.7566534e-01  4.2374566e-01
+  4.9878541e-01  6.2312710e-01  8.5564607e-01  1.0000000e+00]","Observation from last step: 
+Hull angle: 0.25
+Angular velocity: 0.03
+X velocity: -0.17
+Y velocity: -0.06
+Back revolute joint angle: 1.14
+Back revolute joint speed: -0.00
+Back lower leg angle: -0.64
+Back lower leg speed: -0.00
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.78
+Front revolute joint speed: -0.23
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.31
+Lidar 2 (0.15 rad): 0.31
+Lidar 3 (0.30 rad): 0.32
+Lidar 4 (0.45 rad): 0.34
+Lidar 5 (0.60 rad): 0.38
+Lidar 6 (0.75 rad): 0.42
+Lidar 7 (0.90 rad): 0.50
+Lidar 8 (1.05 rad): 0.62
+Lidar 9 (1.20 rad): 0.86
+Lidar 10 (1.35 rad): 1.00",-0.24621515674591066,The reward from the last step was: -0.25,-4.284005632770063,"
+_
+Observation from last step: 
+Hull angle: 0.25
+Angular velocity: 0.03
+X velocity: -0.17
+Y velocity: -0.06
+Back revolute joint angle: 1.14
+Back revolute joint speed: -0.00
+Back lower leg angle: -0.64
+Back lower leg speed: -0.00
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.78
+Front revolute joint speed: -0.23
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.31
+Lidar 2 (0.15 rad): 0.31
+Lidar 3 (0.30 rad): 0.32
+Lidar 4 (0.45 rad): 0.34
+Lidar 5 (0.60 rad): 0.38
+Lidar 6 (0.75 rad): 0.42
+Lidar 7 (0.90 rad): 0.50
+Lidar 8 (1.05 rad): 0.62
+Lidar 9 (1.20 rad): 0.86
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: -0.25
+score: Score: -4.284005632770063
+
+    Additional Observations:
+    Walker has leftward velocity and is moving backwards, try a different action to move forward
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    There has been no change in the reward for the last 10 steps. Please try a different strategy to maximize the reward and progress the Walker forward
+    
+    
+
+Actions 
+","['1. Move Back revolute joint 0.2, Back lower leg -0.5, Front revolute joint 0.0, Front lower leg 0.8  ', '2. Move Back revolute joint 0.1, Back lower leg -0.4, Front revolute joint 0.1, Front lower leg 0.9  ', '3. Move Back revolute joint 0.3, Back lower leg -0.6, Front revolute joint -0.1, Front lower leg 0.7  ', '4. Move Back revolute joint 0.0, Back lower leg -0.3, Front revolute joint 0.2, Front lower leg 0.6  ', '5. Move Back revolute joint -0.1, Back lower leg -0.5, Front revolute joint 0.3, Front lower leg 0.5']","[[0.2, -0.5, 0.0, 0.8], [0.1, -0.4, 0.1, 0.9], [0.3, -0.6, -0.1, 0.7], [0.0, -0.3, 0.2, 0.6], [-0.1, -0.5, 0.3, 0.5]]"
+13,"[ 3.4696567e-01  4.3248154e-02 -2.0413822e-01 -9.2865512e-02
+  1.1346006e+00  1.8838942e-03 -6.3333321e-01  1.2581149e-03
+  1.0000000e+00  6.8276078e-01 -1.4078940e-01  9.3490672e-01
+ -8.6824102e-06  0.0000000e+00  2.9159272e-01  2.9490420e-01
+  3.0522516e-01  3.2383105e-01  3.5330200e-01  3.9852011e-01
+  4.6909273e-01  5.8603233e-01  8.0470949e-01  1.0000000e+00]","Observation from last step: 
+Hull angle: 0.35
+Angular velocity: 0.04
+X velocity: -0.20
+Y velocity: -0.09
+Back revolute joint angle: 1.13
+Back revolute joint speed: 0.00
+Back lower leg angle: -0.63
+Back lower leg speed: 0.00
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.68
+Front revolute joint speed: -0.14
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.29
+Lidar 2 (0.15 rad): 0.29
+Lidar 3 (0.30 rad): 0.31
+Lidar 4 (0.45 rad): 0.32
+Lidar 5 (0.60 rad): 0.35
+Lidar 6 (0.75 rad): 0.40
+Lidar 7 (0.90 rad): 0.47
+Lidar 8 (1.05 rad): 0.59
+Lidar 9 (1.20 rad): 0.80
+Lidar 10 (1.35 rad): 1.00",-0.29584081176122273,The reward from the last step was: -0.30,-5.66813582232396,"
+_
+Observation from last step: 
+Hull angle: 0.35
+Angular velocity: 0.04
+X velocity: -0.20
+Y velocity: -0.09
+Back revolute joint angle: 1.13
+Back revolute joint speed: 0.00
+Back lower leg angle: -0.63
+Back lower leg speed: 0.00
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.68
+Front revolute joint speed: -0.14
+Front lower leg angle: 0.93
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.29
+Lidar 2 (0.15 rad): 0.29
+Lidar 3 (0.30 rad): 0.31
+Lidar 4 (0.45 rad): 0.32
+Lidar 5 (0.60 rad): 0.35
+Lidar 6 (0.75 rad): 0.40
+Lidar 7 (0.90 rad): 0.47
+Lidar 8 (1.05 rad): 0.59
+Lidar 9 (1.20 rad): 0.80
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: -0.30
+score: Score: -5.66813582232396
+
+    Additional Observations:
+    Walker has leftward velocity and is moving backwards, try a different action to move forward
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    There has been no change in the reward for the last 10 steps. Please try a different strategy to maximize the reward and progress the Walker forward
+    
+    
+
+Actions 
+","['1. Move Back revolute joint 0.2, Back lower leg -0.5, Front revolute joint 0.0, Front lower leg 0.8  ', '2. Move Back revolute joint 0.1, Back lower leg -0.4, Front revolute joint 0.1, Front lower leg 0.9  ', '3. Move Back revolute joint 0.3, Back lower leg -0.6, Front revolute joint -0.1, Front lower leg 0.7  ', '4. Move Back revolute joint 0.0, Back lower leg -0.3, Front revolute joint 0.2, Front lower leg 0.6  ', '5. Move Back revolute joint -0.1, Back lower leg -0.5, Front revolute joint 0.3, Front lower leg 0.5  ']","[[0.2, -0.5, 0.0, 0.8], [0.1, -0.4, 0.1, 0.9], [0.3, -0.6, -0.1, 0.7], [0.0, -0.3, 0.2, 0.6], [-0.1, -0.5, 0.3, 0.5]]"
+14,"[ 4.7334704e-01  5.5199694e-02 -2.3496334e-01 -1.3846603e-01
+  1.1335806e+00 -1.9297004e-04 -6.3020384e-01 -1.3347466e-04
+  1.0000000e+00  6.3821763e-01 -4.1283131e-02  9.3490708e-01
+  9.1393787e-07  0.0000000e+00  2.6395962e-01  2.6695728e-01
+  2.7630016e-01  2.9314286e-01  3.1982094e-01  3.6075392e-01
+  4.2463866e-01  5.3049636e-01  7.2845030e-01  1.0000000e+00]","Observation from last step: 
+Hull angle: 0.47
+Angular velocity: 0.06
+X velocity: -0.23
+Y velocity: -0.14
+Back revolute joint angle: 1.13
+Back revolute joint speed: -0.00
+Back lower leg angle: -0.63
+Back lower leg speed: -0.00
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.64
+Front revolute joint speed: -0.04
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.26
+Lidar 2 (0.15 rad): 0.27
+Lidar 3 (0.30 rad): 0.28
+Lidar 4 (0.45 rad): 0.29
+Lidar 5 (0.60 rad): 0.32
+Lidar 6 (0.75 rad): 0.36
+Lidar 7 (0.90 rad): 0.42
+Lidar 8 (1.05 rad): 0.53
+Lidar 9 (1.20 rad): 0.73
+Lidar 10 (1.35 rad): 1.00",-0.34567379926045977,The reward from the last step was: -0.35,-7.309191647128267,"
+_
+Observation from last step: 
+Hull angle: 0.47
+Angular velocity: 0.06
+X velocity: -0.23
+Y velocity: -0.14
+Back revolute joint angle: 1.13
+Back revolute joint speed: -0.00
+Back lower leg angle: -0.63
+Back lower leg speed: -0.00
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.64
+Front revolute joint speed: -0.04
+Front lower leg angle: 0.93
+Front lower leg speed: 0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.26
+Lidar 2 (0.15 rad): 0.27
+Lidar 3 (0.30 rad): 0.28
+Lidar 4 (0.45 rad): 0.29
+Lidar 5 (0.60 rad): 0.32
+Lidar 6 (0.75 rad): 0.36
+Lidar 7 (0.90 rad): 0.42
+Lidar 8 (1.05 rad): 0.53
+Lidar 9 (1.20 rad): 0.73
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: -0.35
+score: Score: -7.309191647128267
+
+    Additional Observations:
+    Walker has leftward velocity and is moving backwards, try a different action to move forward
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    There has been no change in the reward for the last 10 steps. Please try a different strategy to maximize the reward and progress the Walker forward
+    
+    
+
+Actions 
+","['1. Move Back revolute joint 0.1, Back lower leg -0.5, Front revolute joint 0.1, Front lower leg 0.8  ', '2. Move Back revolute joint 0.2, Back lower leg -0.4, Front revolute joint 0.0, Front lower leg 0.9  ', '3. Move Back revolute joint 0.3, Back lower leg -0.3, Front revolute joint 0.2, Front lower leg 0.6  ', '4. Move Back revolute joint 0.0, Back lower leg -0.6, Front revolute joint -0.1, Front lower leg 0.7  ', '5. Move Back revolute joint -0.1, Back lower leg -0.4, Front revolute joint 0.3, Front lower leg 0.5  ']","[[0.1, -0.5, 0.1, 0.8], [0.2, -0.4, 0.0, 0.9], [0.3, -0.3, 0.2, 0.6], [0.0, -0.6, -0.1, 0.7], [-0.1, -0.4, 0.3, 0.5]]"
+15,"[ 6.3623846e-01  7.2570801e-02 -2.7168933e-01 -1.8103296e-01
+  1.1326382e+00  5.6174695e-03 -6.2628341e-01  4.4846535e-03
+  1.0000000e+00  6.2112457e-01  4.7984421e-03  9.3513119e-01
+ -2.9623508e-05  0.0000000e+00  2.2513698e-01  2.2769374e-01
+  2.3566249e-01  2.5002801e-01  2.7278233e-01  3.0769497e-01
+  3.6218366e-01  4.5247203e-01  6.2131131e-01  1.0000000e+00]","Observation from last step: 
+Hull angle: 0.64
+Angular velocity: 0.07
+X velocity: -0.27
+Y velocity: -0.18
+Back revolute joint angle: 1.13
+Back revolute joint speed: 0.01
+Back lower leg angle: -0.63
+Back lower leg speed: 0.00
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.62
+Front revolute joint speed: 0.00
+Front lower leg angle: 0.94
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.23
+Lidar 2 (0.15 rad): 0.23
+Lidar 3 (0.30 rad): 0.24
+Lidar 4 (0.45 rad): 0.25
+Lidar 5 (0.60 rad): 0.27
+Lidar 6 (0.75 rad): 0.31
+Lidar 7 (0.90 rad): 0.36
+Lidar 8 (1.05 rad): 0.45
+Lidar 9 (1.20 rad): 0.62
+Lidar 10 (1.35 rad): 1.00",-0.41644742066065593,The reward from the last step was: -0.42,-9.246396388018132,"
+_
+Observation from last step: 
+Hull angle: 0.64
+Angular velocity: 0.07
+X velocity: -0.27
+Y velocity: -0.18
+Back revolute joint angle: 1.13
+Back revolute joint speed: 0.01
+Back lower leg angle: -0.63
+Back lower leg speed: 0.00
+Back leg ground contact flag: 1.00
+Front revolute joint angle: 0.62
+Front revolute joint speed: 0.00
+Front lower leg angle: 0.94
+Front lower leg speed: -0.00
+Front leg ground contact flag: 0.00
+Lidar 1 (0.00 rad): 0.23
+Lidar 2 (0.15 rad): 0.23
+Lidar 3 (0.30 rad): 0.24
+Lidar 4 (0.45 rad): 0.25
+Lidar 5 (0.60 rad): 0.27
+Lidar 6 (0.75 rad): 0.31
+Lidar 7 (0.90 rad): 0.36
+Lidar 8 (1.05 rad): 0.45
+Lidar 9 (1.20 rad): 0.62
+Lidar 10 (1.35 rad): 1.00
+rewards: The reward from the last step was: -0.42
+score: Score: -9.246396388018132
+
+    Additional Observations:
+    Walker has leftward velocity and is moving backwards, try a different action to move forward
+    
+    
+    Walker is tilting slightly forward, consider trying to balance it back
+    
+    There has been no change in the reward for the last 10 steps. Please try a different strategy to maximize the reward and progress the Walker forward
+    
+    
+
+Actions 
+","['1. Move Back revolute joint 0.1, Back lower leg -0.5, Front revolute joint 0.0, Front lower leg 0.8  ', '2. Move Back revolute joint 0.2, Back lower leg -0.4, Front revolute joint 0.1, Front lower leg 0.9  ', '3. Move Back revolute joint 0.3, Back lower leg -0.3, Front revolute joint 0.2, Front lower leg 0.6  ', '4. Move Back revolute joint 0.0, Back lower leg -0.6, Front revolute joint -0.1, Front lower leg 0.7  ', '5. Move Back revolute joint -0.1, Back lower leg -0.4, Front revolute joint 0.3, Front lower leg 0.5  ']","[[0.1, -0.5, 0.0, 0.8], [0.2, -0.4, 0.1, 0.9], [0.3, -0.3, 0.2, 0.6], [0.0, -0.6, -0.1, 0.7], [-0.1, -0.4, 0.3, 0.5]]"

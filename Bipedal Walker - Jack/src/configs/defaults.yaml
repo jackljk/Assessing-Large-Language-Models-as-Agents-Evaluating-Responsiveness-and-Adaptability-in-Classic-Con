@@ -21,4 +21,4 @@ experiment:
   no_check: 10 # Number of previous checks to use for enhanced
   threshold_rewards_no_change: 3 # Threshold for telling when there is no significant change in rewards
   threshold_leg_movement: 0.5 # Threshold for leg movement to tell when there is no significant change in leg movement
-  llm: "gpt-4o" # LLM model used [gpt-4o, gpt-4o-mini]
+  llm: "gpt-4o-mini" # LLM model used [gpt-4o, gpt-4o-mini]
