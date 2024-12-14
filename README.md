@@ -23,6 +23,9 @@ To adjust the hyperparameters and play around with the different experiments, yo
 The training also currently uses OpenAI API for the LLM model, which requires to have a valid API key. You can get the API key from the [OpenAI website](https://beta.openai.com/account/api-keys). Then store the API key in a `.env` file in the root directory of the project with the key as `OPENAI_API_KEY`.
 
 ## Lunar Lander
-
+The code and scripts for the Lunar Lander environment can be found in the `Lunar Lander` directory. The `Lunar Lander` directory contains:
+- `llm.ipynb`: contains the testing code for the LLM
+- `lunar_lander.ipynb`: contains the initial setup code for the gym environment
+- `runs`: Contains the files for the observations saved during training
 
 ## Car Racing
